@@ -60,6 +60,35 @@
             margin-bottom: 2rem;
         }
 
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .feature-box {
+            flex: 1 1 220px;
+            max-width: 280px;
+            background-color: #ffffff;
+            color: #212121;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            text-align: center;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            background-color: #f0f0f0;
+        }
+
         .contact-info {
             width: 100%;
             padding: 15px;
@@ -91,7 +120,16 @@
     <div class="container">
         <div class="main-text">شرکت ندای پرداخت هوشمند</div>
         <div class="slogan">توسعه دهنده راه‌کارهای توکنایز دارایی و بازار سرمایه</div>
-    
+
+        <div class="features">
+            <a href="https://www.nph.co.ir" class="feature-box">
+                سامانه مبادله دارایی دیجیتال
+            </a>
+            <a href="https://www.nph.co.ir" class="feature-box">
+                شبکه تبادل اطلاعات توزیع‌شده
+            </a>
+        </div>
+
         <div class="contact-info">
             <div><strong>📞 تلفن:</strong> ۹۱۰۱۲۳۰۰</div>
             <div><strong>📧 ایمیل:</strong> INFO@NPH.CO.IR</div>
